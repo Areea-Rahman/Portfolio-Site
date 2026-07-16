@@ -36,7 +36,7 @@ export default function Hero() {
 
         <div className="dataframe" aria-label="Profile summary table">
           <div className="dataframe-header mono">
-            <span>&gt;&gt;&gt; profile.head()</span>
+            <span> profile</span>
           </div>
           <table className="mono">
             <thead>
