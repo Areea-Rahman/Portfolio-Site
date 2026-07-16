@@ -36,7 +36,22 @@ export const projects = [
       demo: 'https://ai-powered-lost-and-found-system-with-vision-language-matching.streamlit.app/', // TODO: add a live Streamlit/Gradio demo link once deployed
     },
   },
-  {
+      {
+    id: 'pwc-rcsa-chatbot',
+    title: 'RCSA Chatbot & Power BI Dashboard',
+    method: 'NLP · Dashboard · Hackathon',
+    summary:
+      'Developed in a team of six for a company-wide PwC hackathon: a Python-based chatbot designed to automate the Risk and Controls Self-Assessment (RCSA) process, integrated with a Power BI dashboard for real-time visualization. Awarded 1st place out of 15 competing teams.',
+    approach:
+      'The chatbot guided users through each step of the RCSA framework. By ingesting user inputs regarding business operations and current mitigation techniques, the bot calculated quantitative risk ratings and evaluated control effectiveness. This assessment data was streamed directly into a Power BI dashboard, providing stakeholders with an interactive, high-level view of risk exposure and control performance across every phase of the business.',
+    result:
+      'In addition to securing the first-place win, our team was invited to present the live demo to active PwC clients as an innovative solution to modernize their internal risk management processes.',
+    links: {
+      code: '',
+      demo: '',
+    },
+  },
+    {
     id: 'thon-donor-analytics',
     title: 'THON Donor Analytics & Dashboard',
     method: 'Dashboard · Analytics',
@@ -58,6 +73,20 @@ export const projects = [
       demo: '',
     },
   },
+    {
+     id: 'ppl-chatbot',
+    title: 'Einstein Agent Assist Tool — GenAI Customer Service Chatbot',
+    method: 'NLP · Internship',
+    summary:
+      "Built an internal generative AI chatbot for PPL Corporation's customer service team, aimed at streamlining the call process to reduce operational expense and burden on agents.",
+    approach:
+      'Owned prompt engineering to reduce hallucinations and keep answers grounded in the underlying knowledge base, implemented chat history via object-oriented programming for conversational memory across a session, and designed a real-person escalation path so agents get clear next steps whenever the bot has no confident answer.',
+    result: 'Potential to decrease average call handle time by 20%.',
+    links: {
+      code: '',
+      demo: '',
+    },
+  },
   {
     id: 'thesis',
     title: 'Regulatory Impact on Uber Drivers (Honors Thesis)',
@@ -74,35 +103,7 @@ export const projects = [
       demoLabel: 'Read full thesis here',
     },
   },
-  {
-     id: 'ppl-chatbot',
-    title: 'Einstein Agent Assist Tool — GenAI Customer Service Chatbot',
-    method: 'NLP · Internship',
-    summary:
-      "Built an internal generative AI chatbot for PPL Corporation's customer service team, aimed at streamlining the call process to reduce operational expense and burden on agents.",
-    approach:
-      'Owned prompt engineering to reduce hallucinations and keep answers grounded in the underlying knowledge base, implemented chat history via object-oriented programming for conversational memory across a session, and designed a real-person escalation path so agents get clear next steps whenever the bot has no confident answer.',
-    result: 'Potential to decrease average call handle time by 20%.',
-    links: {
-      code: '',
-      demo: '',
-    },
-  },
-    {
-    id: 'pwc-rcsa-chatbot',
-    title: 'RCSA Chatbot & Power BI Dashboard',
-    method: 'NLP · Dashboard · Hackathon',
-    summary:
-      'Developed in a team of six for a company-wide PwC hackathon: a Python-based chatbot designed to automate the Risk and Controls Self-Assessment (RCSA) process, integrated with a Power BI dashboard for real-time visualization. Awarded 1st place out of 15 competing teams.',
-    approach:
-      'The chatbot guided users through each step of the RCSA framework. By ingesting user inputs regarding business operations and current mitigation techniques, the bot calculated quantitative risk ratings and evaluated control effectiveness. This assessment data was streamed directly into a Power BI dashboard, providing stakeholders with an interactive, high-level view of risk exposure and control performance across every phase of the business.',
-    result:
-      'In addition to securing the first-place win, our team was invited to present the live demo to active PwC clients as an innovative solution to modernize their internal risk management processes.',
-    links: {
-      code: '',
-      demo: '',
-    },
-  },
+
 ]
 
 export const skills = {
