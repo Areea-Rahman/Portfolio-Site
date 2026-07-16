@@ -16,7 +16,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/areea-rahman-064574232/',
   resumeUrl: '/resume.pdf', // place resume.pdf inside the public/ folder
   summary:
-    "I'm a recent magna cum laude graduate from Penn State University with a BS degree in both Data Science & Economics with honors in Data Science from the Schreyer Honors College. I've built GenAI chatbots at PwC and PPL, led financial strategy for an $18.8M fundraising organization (Penn State THON), and I'm looking for a full-time data science or analytics role where I can use my technical skills to make a real impact.",
+    "Welcome to my portfolio! I recently graduated magna cum laude from the Schreyer Honors College at Penn State University with degrees in Data Science & Economics. I've built GenAI chatbots at PwC and PPL, led financial strategy for an $18.8M fundraising organization (Penn State THON), and I'm looking for a full-time data science or analytics role where I can use my technical skills to make a real impact.",
 }
 
 // method: short tag shown on the card (NLP / Dashboard / Research / Product)
