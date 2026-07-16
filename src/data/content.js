@@ -93,11 +93,11 @@ export const projects = [
     title: 'RCSA Chatbot & Power BI Dashboard',
     method: 'NLP · Dashboard · Hackathon',
     summary:
-      'Built with a team of 6 for a company-wide PwC hackathon: a Python-based chatbot to support the Risk and Controls Self-Assessment (RCSA) process, paired with a Power BI dashboard to visualize results. Won 1st place out of 15 teams.',
+      'Developed in a team of six for a company-wide PwC hackathon: a Python-based chatbot designed to automate the Risk and Controls Self-Assessment (RCSA) process, integrated with a Power BI dashboard for real-time visualization. Awarded 1st place out of 15 competing teams.',
     approach:
-      'The chatbot went through each step of the Risk and Controls Self Assessment for clients. Using a rating system and risk levels, the chatbot generated risk ratings for each section of the business and its mitigation techniques. This information then went directly into a Power BI dashboard visualizing the level of risk at each phase.',
+      'The chatbot guided users through each step of the RCSA framework. By ingesting user inputs regarding business operations and current mitigation techniques, the bot calculated quantitative risk ratings and evaluated control effectiveness. This assessment data was streamed directly into a Power BI dashboard, providing stakeholders with an interactive, high-level view of risk exposure and control performance across every phase of the business.',
     result:
-      'Won first place and were able to present the presentation and demo to PwC clients as a potential tool that can be implemented in their risk processes.',
+      'In addition to securing the first-place win, our team was invited to present the live demo to active PwC clients as an innovative solution to modernize their internal risk management processes.',
     links: {
       code: '',
       demo: '',
