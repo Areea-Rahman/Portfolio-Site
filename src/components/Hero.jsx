@@ -17,7 +17,6 @@ export default function Hero() {
     <section id="top" className="hero">
       <div className="container hero-inner">
         <div className="hero-text">
-          <span className="eyebrow">portfolio.head()</span>
           <div className="hero-name-row">
             {profile.photo && (
               <img className="hero-photo" src={profile.photo} alt={profile.name} />
