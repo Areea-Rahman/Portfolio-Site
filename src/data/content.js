@@ -137,8 +137,8 @@ export const experience = [
     org: 'Penn State THON',
     dates: 'Apr 2025 – Apr 2026',
     bullets: [
-      'Directed financial strategy and operations for $18.8M in fundraising and a $750,000 budget, managing a team of 24 finance captains.',
-      'Ensured the financial integrity of 150,000+ annual donations.',
+      'Directed financial strategy and operations for $18.8M in fundraising and a $750,000 budget, directly managing a team of 24 finance captains to ensure the financial integrity of 150,000+ annual donations',
+      'Consolidated and analyzed large-scale donor datasets in Excel to identify giving trends, forecast and track revenue streams, and inform data-backed fundraising campaign planning',
     ],
   },
   {
