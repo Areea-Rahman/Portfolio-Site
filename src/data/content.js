@@ -82,7 +82,22 @@ export const projects = [
       "Built an internal generative AI chatbot for PPL Corporation's customer service team, aimed at streamlining the call process to reduce operational expense and burden on agents.",
     approach:
       'Owned prompt engineering to reduce hallucinations and keep answers grounded in the underlying knowledge base, implemented chat history via object-oriented programming for conversational memory across a session, and designed a real-person escalation path so agents get clear next steps whenever the bot has no confident answer.',
-    result: 'Decreased average call handle time by 20%.',
+    result: 'Potential to decrease average call handle time by 20%.',
+    links: {
+      code: '',
+      demo: '',
+    },
+  },
+    {
+    id: 'pwc-rcsa-chatbot',
+    title: 'RCSA Chatbot & Power BI Dashboard',
+    method: 'NLP · Dashboard · Hackathon',
+    summary:
+      'Built with a team of 6 for a company-wide PwC hackathon: a Python-based chatbot to support the Risk and Controls Self-Assessment (RCSA) process, paired with a Power BI dashboard to visualize results. Won 1st place out of 15 teams.',
+    approach:
+      'The chatbot went through each step of the Risk and Controls Self Assessment for clients. Using a rating system and risk levels, the chatbot generated risk ratings for each section of the business and its mitigation techniques. This information then went directly into a Power BI dashboard visualizing the level of risk at each phase.',
+    result:
+      'Won first place and were able to present the presentation and demo to PwC clients as a potential tool that can be implemented in their risk processes.',
     links: {
       code: '',
       demo: '',
