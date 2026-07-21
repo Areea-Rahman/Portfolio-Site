@@ -433,6 +433,11 @@ section {
   padding-left: 1.1rem;
   color: var(--color-ink-soft);
 }
+.press-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
 @media (max-width: 600px) {
   .timeline-item {
     grid-template-columns: 1fr;
