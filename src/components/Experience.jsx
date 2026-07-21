@@ -20,6 +20,11 @@ export default function Experience() {
                     <li key={i}>{b}</li>
                   ))}
                 </ul>
+                {e.press && (
+                  <a className="press-link" href={e.press.url} target="_blank" rel="noreferrer">
+                  📰 {e.press.label} →
+                  </a>
+                  )}
               </div>
             </div>
           ))}
