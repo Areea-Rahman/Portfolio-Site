@@ -121,6 +121,10 @@ export const experience = [
       'Conducted client data reconnaissance on financial transaction datasets, performing reconciliation projects to validate data accuracy and identify key transaction patterns for improved quality control.',
       'Won 1st place out of 15 teams in a company hackathon by developing a Python-based chatbot for the Risk and Controls Self-Assessment process and a Power BI dashboard to visualize results.',
     ],
+      press: {
+    label: 'Featured in Fox8 TV', 
+    url: 'https://www.fox8tv.com/newspost/funding-cancer-research/', 
+  },
   },
   {
     role: 'Data Science and Machine Learning Intern',
